@@ -1,0 +1,161 @@
+﻿body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f1118;
+  color: #e6e8ee;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(15, 17, 24, 0.95);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.main-nav a {
+  color: #e6e8ee;
+  margin-left: 1.5rem;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.main-nav a:hover {
+  color: #6c9cff;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1.3fr 1fr;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  align-items: center;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #6c9cff;
+  margin-bottom: 1rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  margin: 0;
+}
+
+.hero-description {
+  max-width: 34rem;
+  line-height: 1.8;
+  margin: 1.5rem 0;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 0.95rem 1.8rem;
+  background: #6c9cff;
+  border-radius: 999px;
+  color: #0f1118;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.cta-button:hover {
+  transform: translateY(-2px);
+  background: #4e7de4;
+}
+
+.hero-card {
+  background: linear-gradient(180deg, rgba(21, 27, 43, 0.95), rgba(14, 18, 26, 0.98));
+  border: 1px solid rgba(108, 156, 255, 0.18);
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+}
+
+.product-badge {
+  display: inline-block;
+  padding: 0.35rem 0.9rem;
+  background: #6c9cff;
+  color: #0f1118;
+  border-radius: 999px;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.hero-card h2 {
+  margin-top: 0;
+}
+
+.hero-card ul {
+  margin: 1rem 0 0;
+  padding-left: 1.2rem;
+}
+
+.hero-card li {
+  margin-bottom: 0.8rem;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.feature-item {
+  background: #151b2d;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 1.6rem;
+}
+
+.feature-item h3 {
+  margin-top: 0;
+}
+
+.product-description {
+  padding: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.product-description h2 {
+  margin-top: 0;
+}
+
+footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  background: #0b0d14;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+@media (max-width: 900px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .main-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 2.5rem 1.2rem;
+  }
+
+  .features {
+    grid-template-columns: 1fr;
+  }
+}
