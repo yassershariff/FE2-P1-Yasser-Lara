@@ -448,6 +448,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
+    padding: 1rem 1rem 0.75rem;
   }
 
   .main-nav {
@@ -457,7 +458,24 @@ footer {
   }
 
   .hero {
-    padding: 3rem 1.2rem 2rem;
+    padding: 3rem 1rem 1.5rem;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.4rem, 12vw, 3.4rem);
+  }
+
+  .hero-description,
+  .hero-card p,
+  .feature-item p,
+  .benefit-card p,
+  .spec-card p,
+  .use-item p,
+  .description-copy p,
+  .cta-panel p,
+  footer p {
+    font-size: 0.98rem;
+    line-height: 1.8;
   }
 
   .hero-actions,
@@ -470,12 +488,58 @@ footer {
     grid-template-columns: 1fr;
   }
 
+  .hero-actions {
+    width: 100%;
+  }
+
+  .hero-actions a,
+  .cta-button,
+  .secondary-button {
+    width: 100%;
+  }
+
   .hero-stats {
     display: grid;
   }
 
   .device-shell {
     width: 100%;
+  }
+
+  .device-screen {
+    padding: 1.5rem;
+  }
+
+  .hero-card,
+  .feature-item,
+  .benefit-card,
+  .spec-card,
+  .use-item,
+  .detail-card,
+  .cta-panel {
+    padding: 1.4rem;
+  }
+
+  .section-header {
+    padding: 0 1rem;
+  }
+
+  .product-description,
+  .cta-panel,
+  .highlights,
+  .product-benefits,
+  .technical-specs,
+  .use-cases {
+    margin: 0;
+    padding: 0 1rem 1.5rem;
+  }
+
+  .product-description {
+    grid-template-columns: 1fr;
+  }
+
+  .cta-panel {
+    gap: 1rem;
   }
 
   .product-badge {
