@@ -1,1 +1,74 @@
-"Aquí esta la base de la pagina web"
+1. Versión inicial
+Construye una primera versión del sitio que incluya:
+
+•
+nombre del producto,
+
+•
+breve descripción,
+
+•
+una estructura básica del sitio,
+
+•
+una sección destacada (presentación del producto).
+
+2. Mejora visual
+El cliente considera que el sitio es funcional, pero necesita una mejor presentación.
+
+Debes:
+
+•
+mejorar el diseño visual,
+
+•
+aplicar estilos más trabajados,
+
+•
+mejorar la distribución del contenido,
+
+•
+lograr una apariencia moderna.
+
+3. Incorporación de contenido
+El producto necesita ser mejor explicado al usuario.
+
+Debes agregar nuevas secciones, por ejemplo:
+
+•
+características principales,
+
+•
+beneficios del producto,
+
+•
+especificaciones técnicas,
+
+•
+posibles usos o ventajas frente a otros productos.
+
+4. Adaptación a dispositivos móviles
+El sitio será visualizado principalmente desde celulares.
+
+Debes:
+
+•
+adaptar el diseño a pantallas pequeñas,
+
+•
+asegurar buena legibilidad,
+
+•
+evitar problemas de distribución o superposición.
+
+5. Mejora final obligatoria
+Debes incorporar una sección tipo ficha de producto o comparativa, que incluya:
+
+•
+características organizadas (por ejemplo: tabla o listado),
+
+•
+al menos 2–3 atributos técnicos relevantes,
+
+•
+una presentación clara y ordenada de la información.
