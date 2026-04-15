@@ -305,6 +305,54 @@ img {
   line-height: 1.8;
 }
 
+.product-benefits,
+.technical-specs,
+.use-cases {
+  padding: 0 2rem 2rem;
+}
+
+.benefit-grid,
+.spec-grid,
+.use-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.benefit-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.benefit-card,
+.spec-card,
+.use-item {
+  background: linear-gradient(180deg, rgba(22, 27, 45, 0.96), rgba(12, 16, 29, 0.98));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  padding: 1.9rem;
+}
+
+.benefit-card h3,
+.spec-card h3,
+.use-item h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.benefit-card p,
+.spec-card p,
+.use-item p {
+  color: var(--muted);
+  line-height: 1.85;
+}
+
+.spec-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.use-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .product-description {
   display: grid;
   grid-template-columns: 1.4fr 1fr;
@@ -382,7 +430,10 @@ footer {
   }
 
   .highlight-grid,
-  .product-description {
+  .product-description,
+  .benefit-grid,
+  .spec-grid,
+  .use-grid {
     grid-template-columns: 1fr;
   }
 
@@ -412,7 +463,10 @@ footer {
   .hero-actions,
   .hero-stats,
   .highlight-grid,
-  .description-details {
+  .description-details,
+  .benefit-grid,
+  .spec-grid,
+  .use-grid {
     grid-template-columns: 1fr;
   }
 
